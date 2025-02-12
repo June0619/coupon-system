@@ -14,5 +14,8 @@ create database coupon_example;
 use coupon_example;
 ```
 
+### Redis 사용 이유
+- incr 명령어 사용 시  SingleThread 이므로 Race Condition 발생 x
+
 
 
